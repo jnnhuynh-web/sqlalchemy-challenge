@@ -48,13 +48,13 @@ def home():
 def precipitation():
     """Convert the query results to a Dictionary using date as the key and prcp as the value."""
     # Query precipitation
-    results = session.query(Measurement.date, Measurement.station, Measurement.prcp).\
+    results = session.query(Measurement.date, Measurement.prcp).\
         filter(Measurement.date >= "2016-08-24").\
         filter(Measurement.date <= "2017-08-23").all()
 
     session.close()
 
-    return jsonify(results)
+    return jsonify({k:v for k,v in results})
     
 @app.route("/api/v1.0/stations")
 def stations():
