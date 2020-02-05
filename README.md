@@ -15,9 +15,9 @@ Calculated the total number of stations, then listed the stations and observatio
 ## Part 2 - Climate Analysis and Exploration
 Design a Flask API based on the queries that you have just developed, using FLASK.
 Routes include:
-  Home page, containing a list of all routes that are available.
-  /api/v1.0/precipitation, containing a dictionary using date as the key and prcp as the value.
-  /api/v1.0/stations, containing a JSON list of stations from the dataset.
-  /api/v1.0/tobs, containing a JSON list of Temperature Observations (tobs) for the previous year.
-  /api/v1.0/<start> and /api/v1.0/<start>/<end>, returning a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start or start-end range.
+  - Home page, containing a list of all routes that are available.
+  - /api/v1.0/precipitation, containing a dictionary using date as the key and prcp as the value.
+  - /api/v1.0/stations, containing a JSON list of stations from the dataset.
+  - /api/v1.0/tobs, containing a JSON list of Temperature Observations (tobs) for the previous year.
+  - /api/v1.0/<start> and /api/v1.0/<start>/<end>, returning a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start or start-end range.
 
