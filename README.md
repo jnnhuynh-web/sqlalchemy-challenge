@@ -4,7 +4,7 @@ This repository includes an analysis of climate patterns in a popular vacation s
 
 ## Part 1 - Climate Analysis and Exploration
 
-Using Python and SQLAlchemy to do basic climate analysis and data exploration of the climate database with the aide of the Pandas, and Matplotlib libraries. 
+Using Python and SQLAlchemy to do a climate analysis and data exploration of the climate database with the aide of the Pandas, and Matplotlib libraries. 
 
 #### Precipitation Analysis
 Created a bar graph of the precipitation by date using the DataFrame plot method.
