@@ -13,7 +13,7 @@ Created a bar graph of the precipitation by date using the DataFrame plot method
 Calculated the total number of stations, then listed the stations and observation counts in descending order to plot the last 12 months of temperature observation data (tobs).
 
 ## Part 2 - Climate Analysis and Exploration
-Design a Flask API based on the queries that you have just developed, using FLASK.
+Design a Flask API to display the queries.
 Routes include:
   - Home page, containing a list of all routes that are available.
   - /api/v1.0/precipitation, containing a dictionary using date as the key and prcp as the value.
